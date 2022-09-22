@@ -1,10 +1,26 @@
-body {
-  background-repeat: no-repeat;
-  background-image: linear-gradient(
-    to bottom right,
-    red,
-    yellow
-  ); /*Por cambiar*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen{
+    border: 5px solid white;
+    border-radius: 150px;
+}
+
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tarjeta{
+    text-align: center;
+    margin-top: 25em;
+    background-image: url(/images/bg-pattern-top.jpg);
+    background-size: 1.5%;
+}
+
+.nombre{
+    font: bold;
 }
 
 .attribution {
