@@ -1,26 +1,46 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/bg-pattern-card.jpg);
+    background-size: 400%;
+}
+
+.tarjeta{
+    background-color: white;
+    text-align: center;
+    margin-top: 15em;
+    margin-left: 5em;
+    border-radius: 20px;
+}
+
+.cabecera{
+    background-image: url(/images/bg-pattern-card.jpg);
+    width: 450px;
+    height: 175px;
+}
+
+.datos_persona{
+    background-color: white;
+    height: 175px;
+    padding-top: 80px;
+}
+
+.datos_tarjeta{
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .imagen{
     border: 5px solid white;
     border-radius: 150px;
-}
-
-.container{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.tarjeta{
-    text-align: center;
-    margin-top: 25em;
-    background-image: url(/images/bg-pattern-top.jpg);
-    background-size: 1.5%;
-}
-
-.nombre{
-    font: bold;
+    margin-top: 125px;
 }
 
 .attribution {
@@ -29,4 +49,12 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+footer{
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
