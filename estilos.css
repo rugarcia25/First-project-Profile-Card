@@ -10,8 +10,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./images/bg-pattern-card.svg);
-  background-size: 400%;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-color: hsl(185, 75%, 40%);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 20vh, left 45vw top 50vh
 }
 
 .tarjeta {
