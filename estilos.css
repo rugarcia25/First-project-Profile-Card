@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/bg-pattern-card.png);
+  background-image: url(./images/bg-pattern-card.svg);
   background-size: 400%;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .cabecera {
-  background-image: url(../images/bg-pattern-card.png);
+  background-image: url(./images/bg-pattern-card.svg);
   width: 350px;
   height: 135px;
   border-top-right-radius: 20px;
